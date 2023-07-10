@@ -5,3 +5,54 @@
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.btn_primary{
+    color: #fff;
+    background: #E55473;
+    padding: 20px 43px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+header{
+    background: #E554731A;
+}
+/* banner css start */
+#banner{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+#banner .banner_info{
+    width: 60%;
+}
+#banner .banner_img{
+    width: 40%;
+    height: 100%;
+    padding-top: 40px;
+}
+#banner .banner_info h1{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+#banner .banner_info p{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+#banner .banner_img img{
+    height: 100%;
+}
+/* banner css end */
