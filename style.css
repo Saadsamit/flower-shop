@@ -23,6 +23,25 @@ img{
     border-radius: 8px;
     margin-top: 32px;
 }
+.info{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.info h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+.info p{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
 /* header css start */
 header{
     background: #E554731A;
@@ -63,25 +82,6 @@ header{
 #featured{
     padding-top: 100px;
 }
-#featured .featured_info{
-    width: 50%;
-    margin: auto;
-    text-align: center;
-}
-#featured .featured_info h3{
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 24px;
-
-}
-#featured .featured_info p{
-    color: #27272799;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 24px;
-}
 #featured .featured_imgs{
     display: flex;
     justify-content: center; 
@@ -109,5 +109,63 @@ header{
     height: 100%;
 }
 /* Featured css end */
-
+/* shop info css start */
+#shop_info{
+    background: #2727270D;
+    display: flex;
+    justify-content:space-around;
+    padding: 100px 40px;
+}
+#shop_info .shop_info{
+    text-align: center;
+}
+#shop_info .shop_info img{
+    width: 88px;
+}
+#shop_info .shop_info p{
+    color: #272727CC;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+/* shop info css end */
+/* hot_deal css start */
+#hot_deal{
+    background: #E554730D;
+    padding: 50px 0;
+    margin: 100px 0;
+}
+#hot_deal .deal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#hot_deal .deal .deal_info{
+    text-align: center;
+    width: 55%;
+}
+#hot_deal .deal .deal_info h2,#hot_deal .deal .deal_info h2 span{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+#hot_deal .deal .deal_info h2 span{
+    color: #E55473;
+}
+#hot_deal .deal .deal_info p{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+/* hot_deal css end */
+/* insta css start */
+#insta .insta_imgs{
+    display: flex;
+}
+#insta .insta_imgs .img{
+    margin: 0 10px;
+}
+/* insta css end */
 /* main css end */
