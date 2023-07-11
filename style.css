@@ -78,6 +78,22 @@ header{
 /* banner css end */
 /* header css end */
 /* main css start */
+/* about us css start */
+#about_us{
+    padding-top: 100px;
+}
+#about_us .about{
+    display: flex;
+}
+#about_us .about .about_text{
+    width: 60%;
+    padding-right: 50px;
+    text-align: start;
+}
+#about_us .about .about_text p{
+    margin: 0;
+}
+/* about us css end */
 /* Featured css start */
 #featured{
     padding-top: 100px;
